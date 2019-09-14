@@ -1,0 +1,26 @@
+{
+  "name": "xyz",
+  "version": "1.0.0",
+  "description": "didi OA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spidemen/xyz.git"
+  },
+  "author": "xing yuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spidemen/xyz/issues"
+  },
+  "homepage": "https://github.com/spidemen/xyz#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "install": "^0.13.0",
+    "npm": "^6.11.3",
+    "path": "^0.12.7",
+    "puppeteer": "^1.20.0"
+  }
+}

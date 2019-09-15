@@ -1,13 +1,13 @@
 # xyz
 didi OA
 
-## get test data from webpage  Node.JS##
+## get test data from webpage  Node.JS ##
 1.  make sure you have install node  
 2.  npm install  
 3.  node index  
 4.  check execution directory test.txt file  
 
-##  main programm word   JAVA##
+##  main programm word   JAVA ##
 1. make sure install java SDK, JVM  
 2. in the runme.sh script, just run execute java file   
    first one is the main program which handle all word anagram  

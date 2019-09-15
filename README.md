@@ -21,3 +21,12 @@ didi OA
    input : a  --> a
            aA-->aA  Aa
            abc-->abc  acb  bac  bca  cab  cba
+
+## something need to know if run on codepade.io ##
+ 1.  copy past code from wordAnagram.java  
+ 2. line 13 " public class wordAnagram { "  change it into   
+      " class wordAnagram { "  , just remove public  
+3.   line 70:  " 	List<String> output=new wordAnagram().Anagram(input); " change into :  
+        List<String> output=new Solution().Anagram(input);  
+
+Finally, if there is any question, contact me: xingyuan15@gmail.com  

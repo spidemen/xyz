@@ -8,4 +8,4 @@ rm  *.class
 java  DiDi.wordAnagram
 
 #execute test file
-java  DiDi.Test
+java  DiDi.Test  -f false

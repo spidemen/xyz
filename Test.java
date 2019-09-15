@@ -21,7 +21,7 @@ public class Test {
     	     }
     	     return true;
     }
-    public void makeTest() throws Exception {
+    public void makeTest(boolean filesave) throws Exception {
     	    // test case 1
     	     String input="a";
    	     HashSet<String> expect=new HashSet<String>();
@@ -56,13 +56,22 @@ public class Test {
  	     } else {
  	         System.out.println("Test 3 Fail ");
  	     }
-   	     
-   	    instance.outputAll("test.txt");
+   	      if(filesave)
+	      {
+			  instance.outputAll("test.txt");
+			  System.out.println("Processing all test case from website....wait ");
+		 }
     	
     }
     
 	public static void main(String[] args) throws Exception {
-		   new Test().makeTest();
+			 if(args[0].contains("-f"))
+			 { 
+			   boolean filesave=args[1].contains("true")?true:false;
+			   new Test().makeTest(filesave);
+			   return ;
+			 } else
+		     new Test().makeTest(false);
 		 
     }
 	

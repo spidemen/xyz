@@ -16,4 +16,8 @@ didi OA
      java  DiDi.Test  -f false  
     false: mean do not generate output file , which means do not generate all the word anagrams from test.txt  
     since this is really huge really a lot of time to run it..
-    
+## test file ##
+  Test.java is mostly three testcase
+   input : a  --> a
+           aA-->aA  Aa
+           abc-->abc  acb  bac  bca  cab  cba

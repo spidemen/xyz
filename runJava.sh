@@ -1,4 +1,10 @@
 #!/bin/sh
+
+
+# get test data from webpage
+npm install
+node index.js
+
 # compile java file
 javac *.java
 # cp java class file to DiDi directory, which is package name

@@ -18,9 +18,10 @@ didi OA
     since this is really huge really a lot of time to run it..
 ## test file ##
   Test.java is mostly three testcase
-   input : a  --> a
-           aA-->aA  Aa
-           abc-->abc  acb  bac  bca  cab  cba
+   input : tlieemstte  --> title me test or test me tile
+           basue-->abuse
+           
+          
 
 ## something need to know if run on codepade.io ##
  1.  copy past code from wordAnagram.java  
